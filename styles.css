@@ -85,3 +85,24 @@ h1{
 .btn:hover {
     background-color: #FF5A00;
 }
+
+@media only screen and (max-width: 768px) {
+    .hero-content {
+        margin: 5rem 1rem; /* Adjusted margin for smaller screens */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .description {
+        width: 90%;
+        font-size: 0.9rem; /* Adjusted font size for smaller screens */
+        line-height: 1.2rem; /* Adjusted line height for smaller screens */
+    }
+
+    .btn {
+        font-size: 1.2rem; /* Adjusted font size for smaller screens */
+        margin-top: 0.5rem; /* Adjusted margin for smaller screens */
+    }
+}
