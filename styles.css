@@ -1,0 +1,87 @@
+:root{
+    --black-color:#000000;
+    --orange-color:#FF5A00;
+    --margerine-color:#FFFDD0;
+    --gray-color: #F1EFEF;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Oswald";
+}
+
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(38, 38, 38, 0.82);
+}
+
+.bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center; /* Optional: Center the background image */
+
+}
+
+.hero-content{
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.eyebrow{
+    color: #FFFDD0;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-family: "Orbitron";
+    color: #FF7F11;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.description{
+    font-family: "Ubuntu";
+    padding-left: 1.5rem;
+    width: 36rem;
+    color:#FFFDD0;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    margin-bottom: 0.75rem;
+}
+
+.btn{
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    display:flex;
+    width: 18rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #FF7F11;
+    color: #262626;
+    text-decoration: none;
+    font-style: #262626;
+    transition: background-color 0.3s ease;  
+}
+
+.btn:hover {
+    background-color: #FF5A00;
+}
